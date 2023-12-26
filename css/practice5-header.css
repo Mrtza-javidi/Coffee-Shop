@@ -8,7 +8,7 @@
 .search-shopping-bag{
     justify-content: center;
 }
-.container-fluid{padding: 0 48px !important;}
+.navbar .container-fluid{padding: 0 48px !important;}
 @media (min-width: 992px) {
     .navbar-collapse{order: 1}
     .navbar-brand{order: 0}
@@ -79,7 +79,7 @@
 }
 @media (max-width: 240px) {
     .navbar-toggler{padding: 0 !important;order: 1;width: 100%;text-align: center;}
-    .container-fluid{padding: 0 !important;}
+    .navbar .container-fluid{padding: 0 !important;}
     .search-shopping-bag{order: 2;width: 100%;justify-content: center;}
     .searchbar-container{padding: 0 !important;}
 }
@@ -208,11 +208,11 @@
 .button-style {
     background-color: #B4BB6B;
     font-size: 16px;
-    font-weight: 400;
+    width: fit-content;
     padding: 13px 40px;
     border-radius: 40px;
-    color: #fff;
     transition: background-color .2s ease !important;
+    text-transform: none !important;
 }
 
 .button-style:hover {
@@ -221,8 +221,8 @@
 
 /*Navbar*/
 
-.navbar {
-    position: absolute !important;
+#navbar {
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 3;
@@ -328,5 +328,3 @@
     background-color: inherit;
     transition: all 1s ease;
 }
-
-
