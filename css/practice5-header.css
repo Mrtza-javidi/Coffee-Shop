@@ -55,11 +55,11 @@
     .carousel-control-prev-icon, .carousel-control-next-icon {
         padding: 10px !important;
     }
-    .header .carousel-item-text p {
+    header .carousel-item-text p {
         font-size: 15px !important;
         transition: all 1s;
     }
-    .header .carousel-item-text h1 {
+    header .carousel-item-text h1 {
         font-size: 46px !important;
         line-height: 47px !important;
     }
@@ -84,7 +84,7 @@
     .searchbar-container{padding: 0 !important;}
 }
 
-.header .carousel-item img {
+header .carousel-item img {
     height: 100vh;
     object-fit: cover;
 }
@@ -98,7 +98,7 @@
     }
 }
 
-.header .carousel-item img {
+header .carousel-item img {
     animation: zoom-in 15s linear;
     position: relative; /* Add this to make the overlay relative */
 }
@@ -159,7 +159,7 @@
     animation: fade-in-out 10.2s ease !important;
 }
 
-.header .carousel-indicators button {
+header .carousel-indicators button {
     border-radius: 50%;
     width: 10px;
     height: 10px;
@@ -178,7 +178,7 @@
     background-color: #B4BB6B !important;
 }
 
-.header .carousel-item-text {
+header .carousel-item-text {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -193,13 +193,13 @@
     color: #fff;
 }
 
-.header .carousel-item-text p {
+header .carousel-item-text p {
     font-size: 18px;
     font-weight: 400;
     margin: 0;
 }
 
-.header .carousel-item-text h1 {
+header .carousel-item-text h1 {
     font-size: 76px;
     font-weight: 500;
     line-height: 74px;
@@ -328,3 +328,5 @@
     background-color: inherit;
     transition: all 1s ease;
 }
+
+
