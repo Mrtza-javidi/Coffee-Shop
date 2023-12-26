@@ -13,11 +13,7 @@
     #menu .product {width: 100% !important;padding: 0 0 20px !important;}
     #menu .product .dashed-space {margin: 0 10px !important;}
 }
-#menu {
-    padding: 90px 100px;
-    background: url("assets/practice5/bg-home.jpg") center;
-    background-size: cover;
-}
+#menu {padding: 90px 100px; background-color: #FBF9F4;}
 #menu .header {text-align: center}
 #menu .header .title {margin-bottom: 40px}
 #menu .header .down-chevron {display: block;margin-bottom: 45px}
