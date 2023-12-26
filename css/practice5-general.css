@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Quattrocento Sans';
-    src: url("../assets/fonts/QuattrocentoSans-Regular.ttf") format("truetype"),
-    url("../assets/fonts/QuattrocentoSans-Regular.eot?#iefix") format("embedded-opentype");
+    src: url("assets/fonts/QuattrocentoSans-Regular.ttf") format("truetype"),
+    url("assets/fonts/QuattrocentoSans-Regular.eot?#iefix") format("embedded-opentype");
 }
 
 @font-face {
     font-family: CormorantGaramond;
-    src: url("../assets/fonts/CormorantGaramond-Regular.ttf") format("truetype"),
-    url("../assets/fonts/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype");
+    src: url("assets/fonts/CormorantGaramond-Regular.ttf") format("truetype"),
+    url("assets/fonts/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype");
 }
 .Quattrocento-Sans {font-family: 'Quattrocento Sans';}
 .CormorantGaramond {font-family: CormorantGaramond;}
