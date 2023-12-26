@@ -1,5 +1,4 @@
 .navbar-toggler {border: var(--bs-border-width) solid rgb(255 255 255 / 15%) !important;}
-
 .navbar-toggler:focus {box-shadow: 0 0 5px #fff !important;}
 #navbar .search-shopping-bag{justify-content: center;}
 #navbar .container-fluid{padding: 0 48px !important;}
