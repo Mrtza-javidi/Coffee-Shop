@@ -16,7 +16,7 @@
 #menu {
     padding: 90px 100px;
     background: url("assets/practice5/bg-home.jpg") center;
-    background-size: contain;
+    background-size: cover;
 }
 #menu .header {text-align: center}
 #menu .header .title {margin-bottom: 40px}
