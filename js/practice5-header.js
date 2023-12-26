@@ -1,7 +1,7 @@
 // toggler icon changing
 const togglerIconImage = document.getElementById("toggler-icon");
-const togglerMenuImage = "../assets/practice5/menu.png";
-const togglerCloseImage = "../assets/practice5/close.png";
+const togglerMenuImage = "assets/practice5/menu.png";
+const togglerCloseImage = "assets/practice5/close.png";
 let currentImage = togglerMenuImage;
 
 function changeTogglerIcon() {
