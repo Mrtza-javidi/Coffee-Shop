@@ -1,0 +1,46 @@
+@media (max-width: 1202px) {
+    #menu .product .name {font-size: 22px !important;}
+    #menu .product .price {font-size: 22px !important;}
+    #menu {padding: 90px 50px!important;}
+    }
+@media (max-width: 1020px) {
+    #menu .product {padding: 0 30px 30px 0 !important;}
+}
+@media (max-width: 900px) {
+    #menu {padding: 90px 15px !important;}
+}
+@media (max-width: 600px) {
+    #menu .product {width: 100% !important;padding: 0 0 20px !important;}
+    #menu .product .dashed-space {margin: 0 10px !important;}
+}
+#menu {
+    padding: 90px 100px;
+    background: url("../assets/practice5/bg-home.jpg") center;
+    background-size: contain;
+}
+#menu .header {text-align: center}
+#menu .header .title {margin-bottom: 40px}
+#menu .header .down-chevron {display: block;margin-bottom: 45px}
+#menu .container-fluid {padding: 0!important;width: 100%;}
+#menu .product {width: 50%;padding: 0 42px 42px 0;}
+#menu .product .information {display: flex; align-items: center}
+.product h4 {margin: 0}
+#menu .product .name {font-size: 24px; font-family: "CormorantGaramond" !important; color: #333 !important;white-space: nowrap;}
+#menu .product .price {font-size: 25px; font-family: "CormorantGaramond" !important; color: #333 !important;}
+#menu .product .dashed-space {
+    width: 100%;
+    margin: 0 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    min-width: 20px;
+}
+#menu .product .dashed-space:after {
+    content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .";
+    display: block;
+    font-size: 17px;
+    color: #aaa8a4;
+}
+#menu .details{margin: 0}
+#menu .footer {width: 100%;}
+#menu .footer .button-style{display: block; margin: auto;}
+
