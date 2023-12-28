@@ -3,21 +3,21 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/practice5-general.css">
     <link rel="stylesheet" href="css/practice5-header.css">
     <link rel="stylesheet" href="css/practice5-features.css">
     <link rel="stylesheet" href="css/practice5-menu.css">
     <link rel="stylesheet" href="css/practice5-blog-gallery.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <style></style>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/practice5-header.js"></script>
+    <script src="js/practice5-blog-gallery.js"></script>
+    <title>Coffee Shop</title>
 </head>
 <body>
 <!-- Header -->
 <header id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel"
         data-bs-interval="10000">
-
-
     <nav id="navbar" class="navbar navbar-expand-lg py-4">
         <div class="container-fluid">
             <div class="searchbar-container d-flex position-absolute flex-column justify-content-around">
@@ -223,19 +223,45 @@
 </section>
 <section id="blog-gallery">
     <div class="container-fluid d-grid">
-        <div><a href="#"><img src="assets/practice5/coffees-and-cakes.jpg" alt="coffees-and-cakes"></a></div>
-        <div><a href="#"><img src="assets/practice5/coffee-and-books-small.jpg" alt="coffee-and-books"></a></div>
-        <div><a href="#"><img src="assets/practice5/dessert-served-with-coffee-small.jpg" alt="dessert-served-with-coffee"></a></div>
-        <div><a href="#"><img src="assets/practice5/fresh-orange-cocktail-table-with-oranges-small.jpg" alt="fresh-orange-cocktail-table-with-oranges"></a></div>
-        <div><a href="#"><img src="assets/practice5/white-chocolate-cupcake-with-bananas-strawberries-small.jpg" alt="white-chocolate-cupcake-with-bananas-strawberries"></a></div>
+        <div class="item">
+            <a href="#1"><img src="../assets/practice5/coffees-and-cakes.jpg" alt="coffees-and-cakes"></a>
+            <div class="tooltip">
+                <div class="text">Coffee and cakes</div>
+            </div>
+        </div>
+        <div class="item">
+            <a href="#2"><img src="../assets/practice5/coffee-and-books-small.jpg" alt="coffee-and-books"></a>
+            <div class="tooltip">
+                <div class="text">Perfect coffee</div>
+            </div>
+        </div>
+        <div class="item">
+            <a href="#3"><img src="../assets/practice5/dessert-served-with-coffee-small.jpg" alt="dessert-served-with-coffee"></a>
+            <div class="tooltip">
+                <div class="text">Grinding selection</div>
+            </div>
+        </div>
+        <div class="item">
+            <a href="#4"><img src="../assets/practice5/fresh-orange-cocktail-table-with-oranges-small.jpg" alt="fresh-orange-cocktail-table-with-oranges"></a>
+            <div class="tooltip">
+                <div class="text">Fresh drinks</div>
+            </div>
+        </div>
+        <div class="item">
+            <a href="#5"><img src="../assets/practice5/white-chocolate-cupcake-with-bananas-strawberries-small.jpg" alt="white-chocolate-cupcake-with-bananas-strawberries"></a>
+            <div class="tooltip">
+                <div class="text">Unique desserts</div>
+            </div>
+        </div>
     </div>
 </section>
 <script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="js/practice5-header.js"></script>
 <script>
     //Global
     let styleElement = document.createElement('style');
     document.head.appendChild(styleElement);
+    const windowWidth = $(window).width();
+    const windowHeight = $(window).height();
 </script>
 </body>
 </html>
