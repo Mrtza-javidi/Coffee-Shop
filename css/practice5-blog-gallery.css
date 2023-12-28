@@ -54,4 +54,28 @@
 #blog-gallery .container-fluid div:nth-child(1) img {height: 960px;}
 #blog-gallery .container-fluid div img {height: 480px;}
 #blog-gallery .container-fluid div img:hover {transform: scale(1.1);}
+#blog-gallery .tooltip {
+    display: none;
+    position: absolute;
+    color: #fff;
+    z-index: 9999;
+    opacity: 1;
+}
+@keyframes slideRight {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+#blog-gallery .text {
+    background-color: #1F242E;
+    padding: 10px 15px;
+    width: 0;
+    display: none;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: slideRight .4s ease forwards;
+}
 
