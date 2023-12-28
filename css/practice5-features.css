@@ -41,6 +41,7 @@
 #features {
     margin: 90px 100px;
     justify-content: center;
+    transition: all .5s ease;
 }
 #features .left-column {width: 50%;}
 #features .left-column .container-fluid {
