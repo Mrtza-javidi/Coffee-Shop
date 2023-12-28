@@ -36,7 +36,7 @@
         grid-template-rows: auto auto auto auto auto !important;
     }
     #blog-gallery .container-fluid div:nth-child(1), #blog-gallery .container-fluid div:nth-child(2), #blog-gallery .container-fluid div:nth-child(3),
-    #blog-gallery .container-fluid div:nth-child(4), #blog-gallery .container-fluid div:nth-child(5){grid-area: auto !important;overflow: hidden !important}
+    #blog-gallery .container-fluid div:nth-child(4), #blog-gallery .container-fluid div:nth-child(5){grid-area: auto !important;}
     #blog-gallery .container-fluid div:nth-child(1) img {height: 100vw !important;}
     #blog-gallery .container-fluid div:nth-child(4) img {height: 100vw !important;}
     #blog-gallery .container-fluid div:nth-child(5) img {height: 100vw !important;}
