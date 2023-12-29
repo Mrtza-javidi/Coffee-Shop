@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/practice5-menu.css">
     <link rel="stylesheet" href="css/practice5-blog-gallery.css">
     <script src="js/jquery-3.7.1.js"></script>
-    <script src="js/practice5-header.js"></script>
     <script src="js/practice5-blog-gallery.js"></script>
     <title>Coffee Shop</title>
 </head>
@@ -256,12 +255,18 @@
     </div>
 </section>
 <script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/practice5-header.js"></script>
 <script>
     //Global
     let styleElement = document.createElement('style');
     document.head.appendChild(styleElement);
-    const windowWidth = $(window).width();
-    const windowHeight = $(window).height();
+    let windowWidth = $(window).width();
+    function getWindowWidth() {
+        return window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    }
+    window.addEventListener('resize', function () {
+        windowWidth = getWindowWidth();
+    });
 </script>
 </body>
 </html>
