@@ -65,3 +65,11 @@ a {
     letter-spacing: 2px;
     margin-bottom: 40px;
 }
+.service {
+    display: inline-block;
+    font-size: 22px;
+    font-family: "CormorantGaramond", Serif;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
