@@ -13,13 +13,16 @@
     #menu .product {width: 100% !important;padding: 0 0 20px !important;}
     #menu .product .dashed-space {margin: 0 10px !important;}
 }
-#menu {padding: 90px 100px; background-color: #FBF9F4;}
+#menu {
+    padding: 90px 100px;
+    background-color: #FBF9F4;
+}
 #menu .header {text-align: center}
 #menu .header .title {margin-bottom: 40px}
 #menu .header .down-chevron {display: block;margin-bottom: 45px}
 #menu .container-fluid {padding: 0!important;width: 100%;}
 #menu .product {width: 50%;padding: 0 42px 42px 0;}
-#menu .product .information {display: flex; align-items: center}
+#menu .product .information {display: -webkit-box;display: flex; -webkit-box-align: center; align-items: center}
 .product h4 {margin: 0}
 #menu .product .name {font-size: 24px; font-family: "CormorantGaramond" !important; color: #333 !important;white-space: nowrap;}
 #menu .product .price {font-size: 25px; font-family: "CormorantGaramond" !important; color: #333 !important;}
