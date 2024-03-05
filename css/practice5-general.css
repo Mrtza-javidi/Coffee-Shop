@@ -1,13 +1,12 @@
 @font-face {
     font-family: 'Quattrocento Sans';
-    src: url("assets/fonts/QuattrocentoSans-Regular.ttf") format("truetype"),
-    url("assets/fonts/QuattrocentoSans-Regular.eot?#iefix") format("embedded-opentype");
+    src: url("../assets/fonts/QuattrocentoSans-Regular.ttf") format("truetype"),
+    url("../assets/fonts/QuattrocentoSans-Regular.eot?#iefix") format("embedded-opentype");
 }
-
 @font-face {
     font-family: CormorantGaramond;
-    src: url("assets/fonts/CormorantGaramond-Regular.ttf") format("truetype"),
-    url("assets/fonts/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype");
+    src: url("../assets/fonts/CormorantGaramond-Regular.ttf") format("truetype"),
+    url("../assets/fonts/CormorantGaramond-Regular.eot?#iefix") format("embedded-opentype");
 }
 .Quattrocento-Sans {font-family: 'Quattrocento Sans';}
 .CormorantGaramond {font-family: CormorantGaramond;}
@@ -17,12 +16,17 @@ a {
     color: #F9F9F9FF !important;
     text-decoration: none !important;
 }
+li {list-style: none}
+ul {margin: 0;padding: 0}
 .button-style {
     background-color: #B4BB6B;
     font-size: 16px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     padding: 13px 40px;
     border-radius: 40px;
+    -webkit-transition: background-color .2s ease !important;
     transition: background-color .2s ease !important;
     text-transform: none !important;
 }
@@ -37,7 +41,8 @@ a {
     text-transform: uppercase;
     font-family: "Quattrocento Sans", sans-serif;
     letter-spacing: 2px;
-    transform: scaleY(.9);
+    -webkit-transform: scaleY(.9);
+            transform: scaleY(.9);
     margin-bottom: 16px;
 }
 .title {
