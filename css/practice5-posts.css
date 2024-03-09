@@ -1,0 +1,31 @@
+@media (max-width: 1202px) {
+    #posts .instagram {width: 90px !important; height: 90px !important;}
+}
+@media (max-width: 900px) {
+    #posts .item {width: 33.33333333333333% !important}
+    #posts .instagram {width: 70px !important; height: 70px !important;}
+}
+@media (max-width: 422px) {
+    #posts .item {width: 50% !important}
+}
+#posts .container-fluid {
+    padding: 0!important; 
+    position: relative;
+    display: -webkit-box;
+    display: flex; 
+    flex-wrap: wrap
+}
+#posts .item {width: 16.666666666666666666666666666667%}
+#posts .item img {height:auto; -o-object-fit: cover; object-fit: cover; width: 100%}
+#posts .instagram {
+    display: inline-block;
+    width: 102px;
+    height: 102px;
+    background: url("../assets/practice5/instagram-social.png") no-repeat center #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}

@@ -1,0 +1,73 @@
+@media (max-width: 900px) {
+    #footer .links .item{padding: 7px 5.8px !important}
+}
+@media (max-width: 422px) {
+    #footer .logo img{width: 100%;}
+    #footer .items {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+    }
+}
+    #footer{
+    padding: 90px 45px 18px;
+    background-color: #222;
+}
+#footer .container-fluid{padding: 0;}
+#footer .logo{
+    display: -webkit-box;
+    display: flex; 
+    -webkit-box-pack: center; 
+    justify-content: center;
+    margin-bottom: 40px
+}
+#footer .logo img{height: auto}
+#footer .links, #footer .social-media  {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center; 
+    justify-content: center; 
+    margin-bottom: 30px
+}
+#footer .social-media  {margin-bottom: 70px}
+#footer .links .item{padding: 7px 12.8px}
+#footer .links .item a{
+    font-family: "quatro sans", sans-serif !important;
+    font-size: 14px;
+    color: #acafad !important;
+    text-transform: uppercase;
+    display: block;
+    position: relative !important;
+}
+#footer .links .item a:hover {color: #f9f9f9 !important;}
+#footer .links .item a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #9FA753FF;
+    -webkit-transition: width .5s;
+    transition: width .5s;
+}
+#footer .links .item a:hover::after{width: 100%;}
+#footer .social-media a{
+    width: 40px; 
+    height: 40px;
+    border: 1px solid #f9f9f926;
+    border-radius: 50%;
+    margin: 0 3px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+}
+#footer .social-media a img{display: block;}
+#footer .copy-right{text-align: center; border-top: 1px solid #393939;padding-top: 16px;}
+#footer .copy-right small{font-size: 16px; color: #9d9f9e; font-family: "Quattrocento Sans";}
