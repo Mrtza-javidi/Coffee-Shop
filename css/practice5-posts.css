@@ -21,7 +21,7 @@
     display: inline-block;
     width: 102px;
     height: 102px;
-    background: url("../assets/practice5/instagram-social-min.png") no-repeat center #fff;
+    background-color: #fff;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -29,3 +29,4 @@
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
 }
+#posts .instagram svg{width: 50%; height: auto;}
