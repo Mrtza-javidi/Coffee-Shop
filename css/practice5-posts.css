@@ -19,8 +19,8 @@
 #posts .item img {height:auto; -o-object-fit: cover; object-fit: cover; width: 100%}
 #posts .instagram {
     display: inline-block;
-    width: 102px;
-    height: 102px;
+    width: 90px;
+    height: 90px;
     background-color: #fff;
     border-radius: 50%;
     position: absolute;
@@ -29,4 +29,4 @@
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
 }
-#posts .instagram svg{width: 50%; height: auto;}
+#posts .instagram svg{width: 25% !important; height: auto !important;}
