@@ -68,6 +68,9 @@
     -webkit-box-align: center;
             align-items: center;
 }
-#footer .social-media a img{display: block;}
+#footer .social-media a:hover .facebook g{fill: #3b5998}
+#footer .social-media a:hover .x g{fill: #777}
+#footer .social-media a:hover .dribble g{fill: #d04c7e}
+#footer .social-media a:hover .instagram g{fill: #bd5dce}
 #footer .copy-right{text-align: center; border-top: 1px solid #393939;padding-top: 16px;}
 #footer .copy-right small{font-size: 16px; color: #9d9f9e; font-family: "Quattrocento Sans";}
