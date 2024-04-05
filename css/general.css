@@ -1,0 +1,121 @@
+@media (max-width: 900px) {
+    .button-back-top{right: 17px !important; bottom: 17px !important;}
+}
+/* --------------------- fonts --------------------- */
+
+.quattrocento-sans-regular {
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .quattrocento-sans-bold {
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cormorant-garamond-medium {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+
+section, header, footer{overflow-x: hidden;}
+a {
+    color: #F9F9F9;
+    text-decoration: none;
+}
+li {list-style: none}
+ul {margin: 0;padding: 0}
+.button-style {
+    background-color: #B4BB6B;
+    font-size: 16px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 13px 40px;
+    border-radius: 40px;
+    -webkit-transition: background-color .2s ease !important;
+    transition: background-color .2s ease !important;
+    text-transform: none !important;
+}
+.button-style:hover {
+    background-color: #9FA753;
+}
+.part {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #b98d58;
+    text-transform: uppercase;
+    font-family: "Quattrocento Sans", sans-serif;
+    letter-spacing: 2px;
+    -webkit-transform: scaleY(.9);
+            transform: scaleY(.9);
+    margin-bottom: 16px;
+}
+.title {
+    font-size: 57px;
+    line-height: 57px;
+    color: #333;
+    font-family: "CormorantGaramond", Serif;
+    margin-bottom: 20px;
+}
+.details {
+    font-size: 17px;
+    line-height: 28px;
+    color: #888682;
+    font-family: "Quattrocento Sans", sans-serif;
+    margin-bottom: 30px;
+}
+.schedule {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 33px;
+    color: #333;
+    text-transform: uppercase;
+    font-family: "CormorantGaramond", Serif;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+.service {
+    display: inline-block;
+    font-size: 22px;
+    font-family: "CormorantGaramond", Serif;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.button-back-top{
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    background-color: #333;
+    border-radius: 50%;
+    position: fixed;
+    right: 34px;
+    bottom: 34px;
+    z-index: 1000;
+}
+.button-back-top::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 50%;
+    background: url(../assets/images/arrow-up-min.png) no-repeat center;
+    background-size: contain;
+}
